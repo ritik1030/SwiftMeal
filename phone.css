@@ -1,0 +1,81 @@
+body {
+  background-color: green;
+}
+.primary-heading {
+  font-size: 40px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar-link {
+  justify-content: center;
+  align-items: center;
+  margin: 0 70vw;
+}
+
+#home p {
+  width: 80vw;
+}
+#home::before {
+  height: 145%;
+  width: 100%;
+  background-position-y: 168px;
+  background-size: cover;
+  z-index: -1;
+}
+
+#services::before {
+  height: 472%;
+  margin-top: -1014px;
+}
+.service-head {
+  margin: 898px 0px;
+}
+.services-image {
+  width: 50vw;
+}
+.subservices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  padding: 0 10vw;
+  margin-top: -826px;
+}
+.sub-content {
+  align-items: center;
+}
+.aboutus-container {
+  width: 91vw;
+  margin: -441px 4vw;
+}
+.aboutus-image {
+  max-width: 20vw;
+}
+.about-us-head {
+  margin: 495px 0px;
+}
+.contact-container {
+  margin: auto;
+}
+.contactushead {
+  margin: 299px 30vw;
+}
+#contact {
+  width: 100vw;
+}
+.contact-form {
+  width: 100vw;
+}
+form input {
+  width: 66vw;
+}
+@media screen and (max-width: 437px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+}
